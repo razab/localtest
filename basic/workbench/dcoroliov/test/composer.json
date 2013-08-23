@@ -1,0 +1,23 @@
+{
+    "name": "dcoroliov/test",
+    "description": "",
+    "authors": [
+        {
+            "name": "dcoroliov",
+            "email": "denis.coroliov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Dcoroliov\\Test": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
